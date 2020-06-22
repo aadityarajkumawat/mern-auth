@@ -1,0 +1,12 @@
+.container .user-authenticated {
+    display: inline;
+    padding: 100px 0;
+    font-family: 50px;
+    color: #00d1b2;
+}
+
+.center-heading-below {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
