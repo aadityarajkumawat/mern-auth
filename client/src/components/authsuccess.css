@@ -1,12 +1,14 @@
-.container .user-authenticated {
-    display: inline;
+.user-authenticated {
+    display: block;
     padding: 100px 0;
-    font-family: 50px;
     color: #00d1b2;
+    padding: 0 180px;
 }
 
 .center-heading-below {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
 }

@@ -10,8 +10,8 @@ const AuthSuccess = ({ auth: { isAuthenticated }, logout, history }) => {
     };
 
     return (
-        <div className='container center-heading-below'>
-            <h1 className='user-authenticated' style={{ fontSize: '50px' }}>
+        <div className='center-heading-below'>
+            <h1 className='user-authenticated' style={{ fontSize: '40px' }}>
                 Conragulations you are Authenticated!!
             </h1>
             <input
