@@ -97,6 +97,9 @@ const Register = ({ auth: { isAuthenticated }, register, history }) => {
                     </button>
                 </div>
             </form>
+            <p>
+                Already a user? <a href='/login'>Login</a>{' '}
+            </p>
         </div>
     );
 };

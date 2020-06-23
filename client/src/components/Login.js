@@ -80,6 +80,9 @@ const Login = ({ auth: { isAuthenticated }, login, history }) => {
                     </button>
                 </div>
             </form>
+            <p>
+                New user? <a href='/'>Sign Up</a>{' '}
+            </p>
         </div>
     );
 };

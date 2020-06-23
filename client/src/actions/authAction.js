@@ -5,6 +5,7 @@ import {
     AUTH_ERROR,
     LOGIN_SUCCESS,
     LOGIN_FAILURE,
+    LOGOUT,
 } from './types';
 
 import Axios from 'axios';
@@ -58,4 +59,8 @@ export const login = (formData) => async (dispatch) => {
     } catch (err) {
         dispatch({ type: LOGIN_FAILURE });
     }
+};
+
+export const logout = () => (dispatch) => {
+    dispatch({ type: LOGOUT });
 };
